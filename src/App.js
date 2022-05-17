@@ -1,18 +1,11 @@
 /** @format */
 
-import "./App.css";
-import MainNav from "./MainNav";
-import MainScripts from "./MainScripts";
-import React from "react";
+import './App.css';
 
 function App() {
   return (
     <>
-      <div className="App">
-        {/* <ImageBackground src="/images/main.jpg" /> */}
-        <MainNav />
-        <MainScripts />
-      </div>
+      <div className='App'>Hello React App</div>
     </>
   );
 }
