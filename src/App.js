@@ -1,11 +1,14 @@
 /** @format */
 
-import './App.css';
+import "./App.css";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <div className='App'>Hello React App</div>
+      <div className="App">
+        <HomePage />
+      </div>
     </>
   );
 }
