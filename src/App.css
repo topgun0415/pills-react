@@ -1,5 +1,4 @@
-/* MAIN - chris */
-
+/* MAIN - Chris */
 .HomePage {
   display: flex;
   justify-content: center;
@@ -17,7 +16,32 @@
   }
 }
 
+/* 배경화면 - Chris */
+.NavContainer {
+  background-image: url("https://img.pilly.kr/main/v201911/cover-pc@2x.jpg");
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 840px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
+.Test1 {
+  background-color: blue;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 840px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
+/* nav 속성(nav~ul) - Chris */
 .MainNav nav {
+  justify-content: space-between;
   font-size: 15px;
   font-weight: bold;
   align-items: center;
@@ -39,7 +63,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 15px;
-  margin-right: auto;
+  margin-right: 15px;
   width: 55px;
   height: 35px;
   cursor: pointer;
@@ -50,13 +74,8 @@
   display: flex;
 }
 
-.NavContainer {
-  background-image: url("https://img.pilly.kr/main/v201911/cover-pc@2x.jpg");
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  min-height: 840px;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-size: cover;
+.MainScripts {
+  display: flex;
+  flex-shrink: 0;
+  margin-left: 140px;
 }
