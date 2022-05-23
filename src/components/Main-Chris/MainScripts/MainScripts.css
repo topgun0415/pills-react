@@ -1,0 +1,4 @@
+.MainScripts {
+  display: flex;
+  flex-direction: column;
+}

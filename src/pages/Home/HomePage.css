@@ -1,0 +1,36 @@
+.NavContainer {
+  background-image: url("https://img.pilly.kr/main/v201911/cover-pc@2x.jpg");
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 840px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.NavContainer > .inner {
+  width: 1000px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .NavContainer > .inner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .NavContainer {
+    padding: 0;
+  }
+
+  .MainNav a {
+    font-size: 14px;
+  }
+  nav > a {
+    display: none;
+  }
+}
