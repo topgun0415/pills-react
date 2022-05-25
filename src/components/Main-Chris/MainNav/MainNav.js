@@ -2,9 +2,6 @@ import "./MainNav.css";
 import { Link } from "react-router-dom";
 
 const MainNav = () => {
-  //이미지 클릭시 새로고침 임시 이벤트
-  const imgClick = () => {};
-
   return (
     <div className="MainNav">
       <nav>
