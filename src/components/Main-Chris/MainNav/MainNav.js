@@ -14,7 +14,7 @@ const MainNav = () => {
           </Link>
           <div className="MainNavList">
             <span>
-              <Link to={"/test1"}>제품보기</Link>
+              <Link to={"/ProductList"}>제품보기</Link>
             </span>
             <span>
               <Link to={"/test2"}>고객후기</Link>
