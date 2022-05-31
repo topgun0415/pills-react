@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&family=Yeon+Sung&display=swap");
+
+.ProductList {
+    background-color: white;
+    font-family: "Do Hyeon";
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: space-between
+}
+
+.item {
+    background-position: 200px 200px;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: right 20px top 20px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.item:nth-child(1) {
+    background-color: lightpink;
+    background-image: url('../ViewProduct/ProductImages/tablet.png');
+}
+.item:nth-child(2) {
+    background-color:aqua;
+    background-image: url('../ViewProduct/ProductImages/tablet2.png');
+}
+.item:nth-child(3) {
+    background-color: beige;
+    background-image: url('../ViewProduct/ProductImages/tablet3.png');
+}
+.item:nth-child(4) {
+    background-color: blanchedalmond;
+    background-image: url('../ViewProduct/ProductImages/tablet4.png');
+}
+.item:nth-child(5) {
+    background-color: cadetblue;
+    background-image: url('../ViewProduct/ProductImages/tablet5.png');
+}
+.item:nth-child(6) {
+    background-color: lightcoral;
+    background-image: url('../ViewProduct/ProductImages/tablet6.png');
+}
+.item:nth-child(7) {
+    background-color: darkkhaki;
+    background-image: url('../ViewProduct/ProductImages/tablet7.png');
+}
+.item:nth-child(8) {
+    background-color: cyan;
+    background-image: url('../ViewProduct/ProductImages/tablet8.png');
+}
+
+@media (max-width: 400px){
+    .container {
+        width: 300px;
+    }
+}
+
+.header {
+    height: 130px;
+}
+
+.header > h2 {
+    padding-right: 90px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.content {
+    display: table;
+    width: 100%;
+    height: 72px;
+}
+
+.content > ul {
+    display: table-cell;
+    width: 200px;
+}
+
+.content > ul li {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.content > div {
+    display: table-cell;
+    width: auto;
+    text-align: right;
+}
+
+.product-header {
+    background-image: url('../ViewProduct/ProductImages/cover-mb@2x.jpeg');
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover
+}
+
+.section-btn {
+    margin-bottom: 50px;
+}
+
+.btn {
+    width: 295px;
+    color:black;
+    border: 0;
+}
+
+.btn-big {
+    height: 50px;
+    line-height: 58px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
