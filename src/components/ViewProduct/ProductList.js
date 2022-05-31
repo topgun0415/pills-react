@@ -14,7 +14,7 @@ const pillyData = [
     price: "18,500원",
     content1: "국제 특허 발효법 사용",
     content2: "10가지 효소를 한번에",
-    content3: "감초추출물 등 다양한 원료 함유",
+    content3: "감초추출물 등 다양한 원료 함유 ",
   },
   {
     id: 2,
