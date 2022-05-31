@@ -1,16 +1,16 @@
 import "./HomePage.css";
 
 import MainNav from "../../components/Main-Chris/MainNav/MainNav";
-import MainScripts from "../../components/Main-Chris/MainScripts/MainScripts";
+import HeaderScripts from "../../components/Main-Chris/HeaderScripts/HeaderScripts";
 
 const HomePage = () => {
   return (
     <div className="NavContainer">
       <div className="inner">
-        <div className="HomePage">
+        <div>
           <MainNav />
         </div>
-        <MainScripts />
+        <HeaderScripts />
       </div>
     </div>
   );
