@@ -1,0 +1,29 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+/* 'Do Hyeon', sans-serif;
+'Jua', sans-serif; */
+
+.ReviewIntro {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: 'Jua', sans-serif;
+  top: 130px;
+  left: 145px;
+}
+
+.ReviewIntro h4 {
+  margin-bottom: 30px;
+}
+
+.ReviewIntro p {
+  font-size: 18px;
+  color: #848484;
+}
+
+.ReviewIntro p span {
+  font-size: 18px;
+  color: #6ad743;
+}
